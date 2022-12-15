@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.839);
+    color: white;
+    
+}
+/* header */
+i {
+    /* color: rgb(96, 96, 96); */
+    padding: 0px 7px;
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 10px;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+}
+
+.header-left img{
+    width: 100px;
+    margin-left: 15px;
+    /* background-color: rgba(0, 0, 0, 0.839) */
+}
+
+.header-search form {
+    /* border: 1px solid #ddd; */
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.header-search input {
+    width: 500px;
+    padding: 10px;
+    margin: 0;
+    border-radius: 0;
+    border: none;
+}
+.header-search button{
+    padding: 0;
+    margin: 0;
+    width: 10%;
+    height: 100%;
+    border-radius: 0;
+    border: none;
+}
+
+/* mainbody */
+.mainbody {
+    /* height: 30vh; */
+    display: flex;
+    
+}
+/* sidebar */
+.sidebar {
+    height: 100%;
+    width: 200px;
+    margin-right: 20px;
+    
+}
+.sidebar-categories {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    
+}
+.sidebar-category {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+/* .sidebar-category span {
+    margin-left: 1rem;
+} */
+
+hr {
+    height: 1px;
+    background-color: #e5e5e5;
+}
+h3 {
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 5px;
+    margin: 5px;
+}
+/* content */
+.content {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+/* bannner */
+.banner-menu {
+    position: relative;
+    background-color: rgb(16, 14, 14);
+    width: 100%;
+}
+
+.sozial ul{
+   display: flex;
+   position: absolute;
+   right: 2rem;
+   bottom: 1rem;
+}
+.sozial ul li {
+    list-style: none;
+}
+.sozial ul li a{
+    padding-inline-start: 2rem;
+}
+.sozial ul img {
+    width: 1rem;
+}
+.face {
+    padding-left: 7px;
+    font-size: 0.8rem;
+}
+    
+/* .fa {
+    border: 2px solid red;
+    position: absolute;
+    font-size: small;
+    bottom: 30px;
+}
+.twitter {
+    position: absolute;
+    top: ;
+} */
+    
+.profil {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+    
+.foto {
+    display: flex;
+    padding-top: 5px;
+    padding-left: 60px;
+}
+.foto img {
+    border-radius: 100%;
+    width: 100px;
+    
+
+} 
+.hilton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15px;
+}
+.hilton span {
+    padding-top: 5px;
+    color: lightgray;
+    font-weight: 200;
+    font-size: smaller;
+}
+.buton{
+    padding-right: 9rem;
+}
+button{
+    width: 8rem;
+    height: 2rem;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 4px;
+    color: white;
+    font-weight: 850;
+    cursor: pointer;
+}
+
+.menu{
+    
+    margin: 1rem;
+}
+
+.menu ul{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 10rem;
+    
+}
+
+.menu ul li {
+    list-style: none;
+    margin: 1rem;
+    font-size: 16px;
+    
+    /* padding: 10px;
+    margin: 10px; */
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: lightgray;
+    /* padding-left: 3rem;
+    padding-right: 5rem; */
+}
+    
+
+
+    
+
+    
+    
+
+/* .hilton {
+    display: flex;
+    flex-direction: column;
+} */
+    
+
+
+    
+    
+    
