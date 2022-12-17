@@ -181,7 +181,7 @@ h3 {
 .buton{
     padding-right: 9rem;
 }
-button{
+.subs{
     width: 8rem;
     height: 2rem;
     background-color: red;
@@ -211,29 +211,91 @@ button{
     list-style: none;
     margin: 1rem;
     font-size: 16px;
-    
-    /* padding: 10px;
-    margin: 10px; */
 }
-
 .menu ul li a{
     text-decoration: none;
     color: lightgray;
-    /* padding-left: 3rem;
-    padding-right: 5rem; */
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+}
+
+/* video section */
+.video-content{
+    
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    height: 100%;
+    padding-left: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+   background-color: black;
+   color: lightgray; 
+}
+.videos{
+    border: 2px solid red;
+}
+    
+    
+
+.video{
+    padding-top: 1rem;
+    display: flex;
+    position: relative;
+}
+
+/* .videos{
+   display: flex;
+} */
+
+/* .video{
+    position: relative;
+    border: 2px solid red;
+    width: 100%;
+} */
+.video img{
+    width: 15rem;
+    height: 10rem;
+}
+    
+.video span {
+    position: absolute;
+    bottom: 5px;
+    left: 13rem;
+    background-color: black;
+    font-weight: bold;
+}
+.videotext{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 15rem;
+    height: 4rem;
+    border: 2px solid red;
+}
+.videotext h3{
+    color: white;
+    display: flex;
+    padding-right: 5rem;
 }
     
 
 
     
+    
+    
+    
+    
+    
+
+
+    
 
     
     
 
-/* .hilton {
-    display: flex;
-    flex-direction: column;
-} */
+
     
 
 
