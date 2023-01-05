@@ -1,7 +1,4 @@
-## Your App name
-
-Youtube Clone
-
+## Youtube Clone
 
 
 ---
